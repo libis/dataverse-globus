@@ -1,8 +1,8 @@
 {
-  "baseUrl": "",
+  "baseUrl": "https://www.rdm.libis.kuleuven.be",
   "id": "",
-  "redirectUploadURL": "http://localhost/upload",
-  "redirectDownloadURL": "http://localhost/download",
-  "globusClientId": ""
+  "redirectUploadURL": "https://libis.github.io/dataverse-globus/upload",
+  "redirectDownloadURL": "https://libis.github.io/dataverse-globus/download",
+  "globusClientId": "94463c48-b82d-4e54-807f-c08b95696bb4"
 }
 
