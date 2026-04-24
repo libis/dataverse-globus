@@ -147,7 +147,8 @@ export class InterfaceComponent implements OnInit {
 
     getCode(callback, dvLocale) {
         const decodedCallback = this.decodeCallback(callback);
-        let state = decodedCallback + '&dvLocale=' + dvLocale;
+        const sep = decodedCallback.indexOf('?') === -1 ? '?' : '&';
+        let state = decodedCallback + sep + 'dvLocale=' + dvLocale;
         state = btoa(state);
         const clientId = this.config.globusClientId;
 
